@@ -1,6 +1,7 @@
 .h-wrapper{
     /* background: var(--black); */
     color: white;
+    /* color: rgb(0, 0, 0); */
 }
 
 .h-container {
@@ -8,6 +9,7 @@
     padding-top: 1rem;
     padding-bottom: 1rem;
     color: var(--secondary);
+    color: rgb(255, 255, 255);
 }
 .h-menu
 {
