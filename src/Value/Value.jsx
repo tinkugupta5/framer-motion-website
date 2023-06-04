@@ -44,14 +44,7 @@ const Value = () => {
                         )
                     })
                 }
-                
-
-
           </Accordion>
-
-
-
-
         </div>
       </div>
     </section>
