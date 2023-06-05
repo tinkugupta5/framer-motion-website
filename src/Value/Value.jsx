@@ -40,7 +40,6 @@ const Value = () => {
                             <AccordionItem className="accordionItem">
                                 <AccordionItemHeading></AccordionItemHeading>
                             </AccordionItem>
-                            // 1:27:38
                         )
                     })
                 }
