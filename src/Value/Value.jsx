@@ -36,9 +36,14 @@ const Value = () => {
             preExpanded={[0]}>
                 {
                     data.map((item,i)=>{
-                        return(
-                            <AccordionItem className="accordionItem">
-                                <AccordionItemHeading></AccordionItemHeading>
+                        return
+                        (
+                            <AccordionItem className="accordionItem" key={i} uuid={i}>
+                                <AccordionItemHeading>
+                                  <AccordionItemButton>
+                                    <div className="flexCenter icon">{item.icon}</div>
+                                  </AccordionItemButton>
+                                </AccordionItemHeading>
                             </AccordionItem>
                         )
                     })
