@@ -27,7 +27,7 @@ const Value = () => {
           <span className="secondaryText">
             We always ready to help by providing the best services for you.{" "}
             <br />
-            We beleive a good blace to live can make your life better .
+            We beleive a good blace to live can make your life better.
           </span>
 
           <Accordion
