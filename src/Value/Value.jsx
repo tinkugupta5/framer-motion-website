@@ -34,7 +34,6 @@ const Value = () => {
             className="accordion"
             allowMultipleExpanded={false}
             preExpanded={[0]}>
-                
                     {data.map((item,i) => {
                         return(                        
                             <AccordionItem className="accordionItem" key={i} uuid={i}>
@@ -56,9 +55,7 @@ const Value = () => {
                         )
                     })
                 }
-          </Accordion>
-
-         
+          </Accordion>        
         </div>
       </div>
     </section>
