@@ -30,7 +30,7 @@ const Value = () => {
             We beleive a good blace to live can make your life better.
           </span>
 
-          <Accordion
+           <Accordion
             className="accordion"
             allowMultipleExpanded={false}
             preExpanded={[0]}>
@@ -55,7 +55,7 @@ const Value = () => {
                         )
                     })
                 }
-          </Accordion>        
+          </Accordion>         
         </div>
       </div>
     </section>
